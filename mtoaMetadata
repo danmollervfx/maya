@@ -1,0 +1,5 @@
+string $posX = `getAttr pCube1.tx`;
+setAttr defaultArnoldDriver.customAttributes[0] -type "string" ("INT name "+$posX);
+
+
+
